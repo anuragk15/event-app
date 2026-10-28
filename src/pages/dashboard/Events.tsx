@@ -64,7 +64,7 @@ const Events = () => {
 
     return (
       <div
-        className="group cursor-pointer"
+        className="group h-full cursor-pointer rounded-2xl border border-border bg-card p-3 shadow-md transition-[box-shadow,border-color] hover:border-primary/40 hover:shadow-xl"
         onClick={() => navigate(`/dashboard/events/${event.id}`)}
       >
         {/* Image */}
@@ -88,7 +88,7 @@ const Events = () => {
           </div>
         </div>
         {/* Info below image */}
-        <div className="space-y-0.5">
+        <div className="space-y-0.5 px-1 pb-1">
           <div className="flex items-center gap-2">
             <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
               {event.event_date ? format(new Date(event.event_date), "EEE, MMM d") : "No date set"}
@@ -103,10 +103,10 @@ const Events = () => {
             {event.name}
           </h3>
           {!isUpcoming && (
-            <div className="flex flex-col gap-0.5 text-xs text-muted-foreground pt-1">
-              <span className="flex items-center gap-1"><Users className="w-3 h-3" />{count} attending</span>
+            <div className="flex flex-col gap-1 text-base leading-6 text-muted-foreground pt-1">
+              <span className="flex items-center gap-2"><Users className="w-4 h-4 shrink-0" />{count} attending</span>
               {event.location_value && (
-                <span className="flex items-center gap-1 truncate"><MapPin className="w-3 h-3" />{event.location_value}</span>
+                <span className="flex items-start gap-2"><MapPin className="w-4 h-4 shrink-0 mt-1" />{event.location_value}</span>
               )}
             </div>
           )}
