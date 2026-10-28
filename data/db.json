@@ -1,0 +1,816 @@
+{
+  "version": 1,
+  "tables": {
+    "profiles": [
+      {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "full_name": "Alex Rivera",
+        "company": "Northwind",
+        "company_description": "We host hands-on workshops, hackathons, and community summits.",
+        "company_slug": "northwind",
+        "website": "https://northwind.example",
+        "avatar_url": null,
+        "social_links": [
+          {
+            "platform": "Twitter / X",
+            "url": "https://x.com/northwind"
+          },
+          {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/company/northwind"
+          }
+        ],
+        "created_at": "2026-01-08T12:00:00.000Z",
+        "updated_at": "2026-10-12T12:00:00.000Z"
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "full_name": "Sam Lee",
+        "company": "Northwind",
+        "company_description": null,
+        "company_slug": null,
+        "website": null,
+        "avatar_url": null,
+        "social_links": [],
+        "created_at": "2026-03-01T12:00:00.000Z",
+        "updated_at": "2026-03-01T12:00:00.000Z"
+      }
+    ],
+    "events": [
+      {
+        "background_image_position": "50% 50%",
+        "background_image_scale": 1,
+        "background_image_url": "/event-covers/ai-hackathon.jpg",
+        "capacity": 200,
+        "color_mode": "light",
+        "description": "A weekend of building with friends. Teams ship a working demo, then demo it on Sunday afternoon.",
+        "email_intro": "Thanks for registering. We can't wait to see you there.",
+        "email_signature": "Alex Rivera\nNorthwind",
+        "event_end_date": "2026-11-16T01:00:00.000Z",
+        "event_type": "hackathon",
+        "location_type": "physical",
+        "location_value": "Ferry Building, San Francisco",
+        "logo_url": null,
+        "primary_color": "#7C3AED",
+        "registration_deadline": null,
+        "registration_limit": 200,
+        "registration_opens_at": null,
+        "requires_approval": false,
+        "send_confirmation_email": true,
+        "send_reminder_1h": false,
+        "send_reminder_24h": true,
+        "template": "summit",
+        "ticket_price": 0,
+        "ticket_tiers": [],
+        "timezone": "America/Los_Angeles",
+        "waitlist_enabled": false,
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-20T16:00:00.000Z",
+        "user_id": "00000000-0000-4000-8000-000000000001",
+        "status": "live",
+        "id": "11111111-1111-4111-8111-111111111111",
+        "name": "AI Hackathon",
+        "slug": "ai-hackathon",
+        "event_date": "2026-11-14T17:00:00.000Z"
+      },
+      {
+        "background_image_position": "50% 50%",
+        "background_image_scale": 1,
+        "background_image_url": "/event-covers/chill-code-workshop.jpg",
+        "capacity": 40,
+        "color_mode": "light",
+        "description": "A small afternoon workshop. Bring a laptop, leave with a tiny app and a few new collaborators.",
+        "email_intro": "Thanks for registering. We can't wait to see you there.",
+        "email_signature": "Alex Rivera\nNorthwind",
+        "event_end_date": "2026-12-03T21:00:00.000Z",
+        "event_type": "workshop",
+        "location_type": "physical",
+        "location_value": "Shoreditch, London",
+        "logo_url": null,
+        "primary_color": "#0F766E",
+        "registration_deadline": null,
+        "registration_limit": 40,
+        "registration_opens_at": null,
+        "requires_approval": false,
+        "send_confirmation_email": true,
+        "send_reminder_1h": false,
+        "send_reminder_24h": true,
+        "template": "workshop",
+        "ticket_price": 0,
+        "ticket_tiers": [],
+        "timezone": "Europe/London",
+        "waitlist_enabled": true,
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-20T16:00:00.000Z",
+        "user_id": "00000000-0000-4000-8000-000000000001",
+        "status": "live",
+        "id": "22222222-2222-4222-8222-222222222222",
+        "name": "Chill Code Workshop",
+        "slug": "chill-code-workshop",
+        "event_date": "2026-12-03T18:00:00.000Z"
+      },
+      {
+        "background_image_position": "50% 50%",
+        "background_image_scale": 1,
+        "background_image_url": "/event-covers/startup-weekend.jpg",
+        "capacity": 120,
+        "color_mode": "light",
+        "description": "Pitch on Friday, build on Saturday, demo on Sunday. Mentors roam the room all weekend.",
+        "email_intro": "Thanks for registering. We can't wait to see you there.",
+        "email_signature": "Alex Rivera\nNorthwind",
+        "event_end_date": "2027-01-18T01:00:00.000Z",
+        "event_type": "conference",
+        "location_type": "physical",
+        "location_value": "Industry City, New York",
+        "logo_url": null,
+        "primary_color": "#EA580C",
+        "registration_deadline": null,
+        "registration_limit": null,
+        "registration_opens_at": null,
+        "requires_approval": false,
+        "send_confirmation_email": true,
+        "send_reminder_1h": false,
+        "send_reminder_24h": true,
+        "template": "conference",
+        "ticket_price": 25,
+        "ticket_tiers": [
+          {
+            "id": "tier-general",
+            "name": "General admission",
+            "description": "Full weekend access",
+            "price": 25,
+            "currency": "USD",
+            "capacity": 100,
+            "is_vip": false
+          },
+          {
+            "id": "tier-vip",
+            "name": "VIP",
+            "description": "Front-row seats and the mentor dinner",
+            "price": 75,
+            "currency": "USD",
+            "capacity": 20,
+            "is_vip": true
+          }
+        ],
+        "timezone": "America/New_York",
+        "waitlist_enabled": false,
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-20T16:00:00.000Z",
+        "user_id": "00000000-0000-4000-8000-000000000001",
+        "status": "draft",
+        "id": "33333333-3333-4333-8333-333333333333",
+        "name": "Startup Weekend",
+        "slug": "startup-weekend",
+        "event_date": "2027-01-15T23:00:00.000Z"
+      },
+      {
+        "background_image_position": "50% 50%",
+        "background_image_scale": 1,
+        "background_image_url": "/event-covers/vibe-coding-summit.jpg",
+        "capacity": 500,
+        "color_mode": "light",
+        "description": "Talks and live builds about making software that feels good to use.",
+        "email_intro": "Thanks for registering. We can't wait to see you there.",
+        "email_signature": "Alex Rivera\nNorthwind",
+        "event_end_date": "2026-09-12T23:00:00.000Z",
+        "event_type": "conference",
+        "location_type": "virtual",
+        "location_value": "Remote",
+        "logo_url": null,
+        "primary_color": "#2563EB",
+        "registration_deadline": null,
+        "registration_limit": null,
+        "registration_opens_at": null,
+        "requires_approval": false,
+        "send_confirmation_email": true,
+        "send_reminder_1h": false,
+        "send_reminder_24h": true,
+        "template": "summit",
+        "ticket_price": 0,
+        "ticket_tiers": [],
+        "timezone": "America/Los_Angeles",
+        "waitlist_enabled": false,
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-20T16:00:00.000Z",
+        "user_id": "00000000-0000-4000-8000-000000000001",
+        "status": "past",
+        "id": "44444444-4444-4444-8444-444444444444",
+        "name": "Vibe Coding Summit",
+        "slug": "vibe-coding-summit",
+        "event_date": "2026-09-12T16:00:00.000Z"
+      },
+      {
+        "id": "b469ee02-fddd-4ae2-bbfd-4e922b4c00ef",
+        "status": "draft",
+        "ticket_tiers": [],
+        "waitlist_enabled": false,
+        "send_confirmation_email": true,
+        "send_reminder_24h": false,
+        "send_reminder_1h": false,
+        "requires_approval": false,
+        "created_at": "2026-10-28T05:25:50.003Z",
+        "updated_at": "2026-10-28T05:25:53.886Z",
+        "name": "Untitled event",
+        "event_type": "webinar",
+        "slug": "untitled-event-flsd00",
+        "user_id": "00000000-0000-4000-8000-000000000001"
+      },
+      {
+        "id": "e82b1d0e-a461-48ef-8a70-14d3298a03b9",
+        "status": "draft",
+        "ticket_tiers": [],
+        "waitlist_enabled": false,
+        "send_confirmation_email": true,
+        "send_reminder_24h": false,
+        "send_reminder_1h": false,
+        "requires_approval": false,
+        "created_at": "2026-10-28T06:41:14.411Z",
+        "updated_at": "2026-10-28T06:41:14.411Z",
+        "name": "Untitled event",
+        "event_type": "webinar",
+        "slug": "untitled-event-hu4yhv",
+        "user_id": "00000000-0000-4000-8000-000000000001"
+      },
+      {
+        "id": "3b13540a-bec0-41c3-bc16-57efe360f076",
+        "status": "draft",
+        "ticket_tiers": [],
+        "waitlist_enabled": false,
+        "send_confirmation_email": true,
+        "send_reminder_24h": false,
+        "send_reminder_1h": false,
+        "requires_approval": false,
+        "created_at": "2026-10-28T06:41:18.518Z",
+        "updated_at": "2026-10-28T06:41:18.518Z",
+        "name": "Untitled event",
+        "event_type": "webinar",
+        "slug": "untitled-event-3x9m2a",
+        "user_id": "00000000-0000-4000-8000-000000000001"
+      }
+    ],
+    "registrations": [
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a1111111-1111-4111-8111-111111111101",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-07-02T15:00:00.000Z",
+        "data": {
+          "Full Name": "Maya Chen",
+          "Email Address": "maya@example.com",
+          "Phone": "+1 415 555 0142"
+        }
+      },
+      {
+        "checked_in_at": "2026-11-14T17:10:00.000Z",
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "checked_in",
+        "id": "a1111111-1111-4111-8111-111111111102",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-07-18T18:30:00.000Z",
+        "data": {
+          "Full Name": "Jordan Blake",
+          "Email Address": "jordan@example.com",
+          "Phone": "+1 628 555 0190"
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": true,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a1111111-1111-4111-8111-111111111103",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-08-04T20:00:00.000Z",
+        "data": {
+          "Full Name": "Priya Nair",
+          "Email Address": "priya@example.com",
+          "Phone": "+1 510 555 0177"
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "waitlisted",
+        "id": "a1111111-1111-4111-8111-111111111104",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-08-21T14:00:00.000Z",
+        "data": {
+          "Full Name": "Luis Ortega",
+          "Email Address": "luis@example.com",
+          "Phone": ""
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": "Schedule conflict",
+        "utm": null,
+        "status": "cancelled",
+        "id": "a1111111-1111-4111-8111-111111111105",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-09-02T16:45:00.000Z",
+        "data": {
+          "Full Name": "Hannah Kim",
+          "Email Address": "hannah@example.com",
+          "Phone": "+1 650 555 0114"
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a2222222-2222-4222-8222-222222222201",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "created_at": "2026-08-11T11:00:00.000Z",
+        "data": {
+          "Full Name": "Noah Patel",
+          "Email Address": "noah@example.com",
+          "Phone": "+44 7700 900123"
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a2222222-2222-4222-8222-222222222202",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "created_at": "2026-09-09T09:20:00.000Z",
+        "data": {
+          "Full Name": "Elena Rossi",
+          "Email Address": "elena@example.com",
+          "Phone": "+44 7700 900456"
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "no_show",
+        "id": "a2222222-2222-4222-8222-222222222203",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "created_at": "2026-10-01T19:00:00.000Z",
+        "data": {
+          "Full Name": "Chris Nguyen",
+          "Email Address": "chris@example.com",
+          "Phone": ""
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": true,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a3333333-3333-4333-8333-333333333301",
+        "event_id": "33333333-3333-4333-8333-333333333333",
+        "created_at": "2026-10-15T13:00:00.000Z",
+        "data": {
+          "Full Name": "Amelia Brooks",
+          "Email Address": "amelia@example.com",
+          "Phone": "+1 212 555 0188",
+          "Ticket": "VIP",
+          "ticket_tier_id": "tier-vip",
+          "ticket_price": 75,
+          "ticket_currency": "USD"
+        }
+      },
+      {
+        "checked_in_at": "2026-09-12T15:50:00.000Z",
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "attended",
+        "id": "a4444444-4444-4444-8444-444444444401",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "created_at": "2026-06-20T17:00:00.000Z",
+        "data": {
+          "Full Name": "Amira Hassan",
+          "Email Address": "amira@example.com",
+          "Phone": ""
+        }
+      },
+      {
+        "checked_in_at": "2026-09-12T16:05:00.000Z",
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "checked_in",
+        "id": "a4444444-4444-4444-8444-444444444402",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "created_at": "2026-07-08T21:00:00.000Z",
+        "data": {
+          "Full Name": "Ben Carter",
+          "Email Address": "ben@example.com",
+          "Phone": "+1 206 555 0133"
+        }
+      },
+      {
+        "checked_in_at": "2026-09-12T16:12:00.000Z",
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "attended",
+        "id": "a4444444-4444-4444-8444-444444444403",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "created_at": "2026-08-14T15:30:00.000Z",
+        "data": {
+          "Full Name": "Sofia Alvarez",
+          "Email Address": "sofia@example.com",
+          "Phone": ""
+        }
+      },
+      {
+        "checked_in_at": null,
+        "is_vip": false,
+        "notes": null,
+        "utm": null,
+        "status": "registered",
+        "id": "a4444444-4444-4444-8444-444444444404",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "created_at": "2026-09-01T18:00:00.000Z",
+        "data": {
+          "Full Name": "Alex Rivera",
+          "Email Address": "alex@example.com",
+          "Phone": "+1 415 555 0101"
+        }
+      },
+      {
+        "id": "0f1addd1-0166-4914-9e17-04ed4a41e141",
+        "status": "registered",
+        "is_vip": false,
+        "data": {
+          "Full Name": "Riley Morgan",
+          "Email Address": "riley@example.com"
+        },
+        "checked_in_at": null,
+        "notes": null,
+        "utm": null,
+        "created_at": "2026-10-28T03:58:09.328Z",
+        "event_id": "11111111-1111-4111-8111-111111111111"
+      }
+    ],
+    "form_fields": [
+      {
+        "id": "f1111111-1111-4111-8111-111111111101",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "label": "Full Name",
+        "field_type": "text",
+        "placeholder": "Ada Lovelace",
+        "position": 0,
+        "required": true
+      },
+      {
+        "id": "f1111111-1111-4111-8111-111111111102",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "label": "Email Address",
+        "field_type": "email",
+        "placeholder": "ada@example.com",
+        "position": 1,
+        "required": true
+      },
+      {
+        "id": "f1111111-1111-4111-8111-111111111103",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "label": "Phone",
+        "field_type": "tel",
+        "placeholder": "+1 555 0100",
+        "position": 2,
+        "required": false
+      },
+      {
+        "id": "f2222222-2222-4222-8222-222222222201",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "label": "Full Name",
+        "field_type": "text",
+        "placeholder": "Ada Lovelace",
+        "position": 0,
+        "required": true
+      },
+      {
+        "id": "f2222222-2222-4222-8222-222222222202",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "label": "Email Address",
+        "field_type": "email",
+        "placeholder": "ada@example.com",
+        "position": 1,
+        "required": true
+      },
+      {
+        "id": "f2222222-2222-4222-8222-222222222203",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "label": "Phone",
+        "field_type": "tel",
+        "placeholder": "+1 555 0100",
+        "position": 2,
+        "required": false
+      },
+      {
+        "id": "f3333333-3333-4333-8333-333333333301",
+        "event_id": "33333333-3333-4333-8333-333333333333",
+        "label": "Full Name",
+        "field_type": "text",
+        "placeholder": "Ada Lovelace",
+        "position": 0,
+        "required": true
+      },
+      {
+        "id": "f3333333-3333-4333-8333-333333333302",
+        "event_id": "33333333-3333-4333-8333-333333333333",
+        "label": "Email Address",
+        "field_type": "email",
+        "placeholder": "ada@example.com",
+        "position": 1,
+        "required": true
+      },
+      {
+        "id": "f3333333-3333-4333-8333-333333333303",
+        "event_id": "33333333-3333-4333-8333-333333333333",
+        "label": "Phone",
+        "field_type": "tel",
+        "placeholder": "+1 555 0100",
+        "position": 2,
+        "required": false
+      },
+      {
+        "id": "f4444444-4444-4444-8444-444444444401",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "label": "Full Name",
+        "field_type": "text",
+        "placeholder": "Ada Lovelace",
+        "position": 0,
+        "required": true
+      },
+      {
+        "id": "f4444444-4444-4444-8444-444444444402",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "label": "Email Address",
+        "field_type": "email",
+        "placeholder": "ada@example.com",
+        "position": 1,
+        "required": true
+      },
+      {
+        "id": "f4444444-4444-4444-8444-444444444403",
+        "event_id": "44444444-4444-4444-8444-444444444444",
+        "label": "Phone",
+        "field_type": "tel",
+        "placeholder": "+1 555 0100",
+        "position": 2,
+        "required": false
+      },
+      {
+        "id": "36fec0ef-1c4c-45dc-a243-7865e68f9a8f",
+        "field_type": "text",
+        "required": true,
+        "position": 0,
+        "placeholder": null,
+        "event_id": "b469ee02-fddd-4ae2-bbfd-4e922b4c00ef",
+        "label": "Full Name"
+      },
+      {
+        "id": "be6919ee-f04b-44c3-93d0-8cf3ad93ceb7",
+        "field_type": "email",
+        "required": true,
+        "position": 1,
+        "placeholder": null,
+        "event_id": "b469ee02-fddd-4ae2-bbfd-4e922b4c00ef",
+        "label": "Email Address"
+      },
+      {
+        "id": "9a579cb4-a8b6-448c-8947-174c354dcc4a",
+        "field_type": "tel",
+        "required": false,
+        "position": 2,
+        "placeholder": null,
+        "event_id": "b469ee02-fddd-4ae2-bbfd-4e922b4c00ef",
+        "label": "Phone"
+      },
+      {
+        "id": "571aa0aa-30cf-4514-9862-6e8d65c1b0ce",
+        "field_type": "text",
+        "required": true,
+        "position": 0,
+        "placeholder": null,
+        "event_id": "e82b1d0e-a461-48ef-8a70-14d3298a03b9",
+        "label": "Full Name"
+      },
+      {
+        "id": "88419094-342e-4e10-be00-2f52ffb56fbe",
+        "field_type": "email",
+        "required": true,
+        "position": 1,
+        "placeholder": null,
+        "event_id": "e82b1d0e-a461-48ef-8a70-14d3298a03b9",
+        "label": "Email Address"
+      },
+      {
+        "id": "87f5b098-5960-4a64-ab7b-3ead56330544",
+        "field_type": "tel",
+        "required": false,
+        "position": 2,
+        "placeholder": null,
+        "event_id": "e82b1d0e-a461-48ef-8a70-14d3298a03b9",
+        "label": "Phone"
+      },
+      {
+        "id": "c6a8a0eb-1b5a-4024-a013-314f7818c9b9",
+        "field_type": "text",
+        "required": true,
+        "position": 0,
+        "placeholder": null,
+        "event_id": "3b13540a-bec0-41c3-bc16-57efe360f076",
+        "label": "Full Name"
+      },
+      {
+        "id": "226f83fb-c2e4-4f3b-81e3-b7365af7d118",
+        "field_type": "email",
+        "required": true,
+        "position": 1,
+        "placeholder": null,
+        "event_id": "3b13540a-bec0-41c3-bc16-57efe360f076",
+        "label": "Email Address"
+      },
+      {
+        "id": "dfb536d3-d893-47eb-b24e-3957436ea040",
+        "field_type": "tel",
+        "required": false,
+        "position": 2,
+        "placeholder": null,
+        "event_id": "3b13540a-bec0-41c3-bc16-57efe360f076",
+        "label": "Phone"
+      }
+    ],
+    "event_modules": [
+      {
+        "id": "m1111111-1111-4111-8111-111111111101",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "type": "why_attend",
+        "position": 0,
+        "enabled": true,
+        "content": {
+          "heading": "Why attend",
+          "bullets": [
+            "Ship a demo in 48 hours",
+            "Mentors from local product teams",
+            "Prizes for the most useful build"
+          ]
+        },
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "m1111111-1111-4111-8111-111111111102",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "type": "schedule",
+        "position": 1,
+        "enabled": true,
+        "content": {
+          "heading": "What to expect",
+          "items": [
+            {
+              "time": "Fri 6:00 PM",
+              "title": "Kickoff and team forming"
+            },
+            {
+              "time": "Sat 10:00 AM",
+              "title": "Build day"
+            },
+            {
+              "time": "Sun 3:00 PM",
+              "title": "Demos and prizes"
+            }
+          ]
+        },
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "m1111111-1111-4111-8111-111111111103",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "type": "faq",
+        "position": 2,
+        "enabled": true,
+        "content": {
+          "heading": "Frequently asked",
+          "items": [
+            {
+              "q": "Do I need a team?",
+              "a": "No. We'll match people at kickoff."
+            },
+            {
+              "q": "Is food included?",
+              "a": "Dinner on Friday and lunch on Saturday and Sunday."
+            }
+          ]
+        },
+        "created_at": "2026-06-02T16:00:00.000Z",
+        "updated_at": "2026-10-01T16:00:00.000Z"
+      },
+      {
+        "id": "m2222222-2222-4222-8222-222222222201",
+        "event_id": "22222222-2222-4222-8222-222222222222",
+        "type": "schedule",
+        "position": 0,
+        "enabled": true,
+        "content": {
+          "heading": "What to expect",
+          "items": [
+            {
+              "time": "6:00 PM",
+              "title": "Arrive and set up"
+            },
+            {
+              "time": "6:30 PM",
+              "title": "Guided build"
+            },
+            {
+              "time": "8:30 PM",
+              "title": "Show what you made"
+            }
+          ]
+        },
+        "created_at": "2026-06-12T16:00:00.000Z",
+        "updated_at": "2026-10-01T16:00:00.000Z"
+      }
+    ],
+    "event_tracking_links": [
+      {
+        "id": "c1111111-1111-4111-8111-111111111101",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "label": "Newsletter",
+        "code": "newsletter",
+        "click_count": 42,
+        "utm": {
+          "source": "newsletter",
+          "medium": "email",
+          "campaign": "november"
+        },
+        "created_at": "2026-07-01T12:00:00.000Z",
+        "updated_at": "2026-10-18T12:00:00.000Z"
+      }
+    ],
+    "cohost_invitations": [
+      {
+        "id": "d1111111-1111-4111-8111-111111111101",
+        "email": "sam@example.com",
+        "scope": "event",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "status": "accepted",
+        "token": "invite-sam-hackathon",
+        "inviter_id": "00000000-0000-4000-8000-000000000001",
+        "accepted_at": "2026-07-04T12:00:00.000Z",
+        "accepted_by": "00000000-0000-4000-8000-000000000002",
+        "expires_at": "2026-12-01T12:00:00.000Z",
+        "created_at": "2026-07-01T12:00:00.000Z"
+      },
+      {
+        "id": "d1111111-1111-4111-8111-111111111102",
+        "email": "taylor@example.com",
+        "scope": "account",
+        "event_id": null,
+        "status": "pending",
+        "token": "invite-taylor-account",
+        "inviter_id": "00000000-0000-4000-8000-000000000001",
+        "accepted_at": null,
+        "accepted_by": null,
+        "expires_at": "2026-12-15T12:00:00.000Z",
+        "created_at": "2026-10-22T12:00:00.000Z"
+      }
+    ],
+    "cohosts": [
+      {
+        "id": "b1111111-1111-4111-8111-111111111101",
+        "owner_id": "00000000-0000-4000-8000-000000000001",
+        "cohost_user_id": "00000000-0000-4000-8000-000000000002",
+        "event_id": "11111111-1111-4111-8111-111111111111",
+        "created_at": "2026-07-04T12:00:00.000Z"
+      }
+    ],
+    "landing_sections": [],
+    "user_roles": [
+      {
+        "id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaa1",
+        "user_id": "00000000-0000-4000-8000-000000000001",
+        "role": "admin"
+      }
+    ],
+    "event_image_library": [],
+    "image_generation_jobs": []
+  },
+  "storage": {}
+}
